@@ -1,7 +1,0 @@
-# Site settings
-title: The SlickBlog
-description: Blog by Nitish Gupta
-keywords: Robotics, Blogging, Travel, Insights, Technology, Algorithms, Hacks
-author: Nitish
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
