@@ -192,9 +192,9 @@ var demo = (function (window) {
                 var card = layout[i].card;
 
                 // When called with `openCard`.
-                // if (card.id !== id && !selectedCard.isOpen) {
-                //     TL.add(card.hideCard(), 0);
-                // }
+                if (card.id !== id && !selectedCard.isOpen) {
+                    TL.add(card.hideCard(), 0);
+                }
 
                 // When called with `closeCard`.
                 if (card.id !== id && selectedCard.isOpen) {
