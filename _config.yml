@@ -1,50 +1,65 @@
-# Site
-name: "Mediumish"
-description: "Jekyll Template for Blogging"
-meta_description: "Jekyll template, Medium styled, free for bloggers."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+info:
+  # Blog Information
+  title:        "Will Koehler"
+  subtitle:     "Independent web developer living in Columbus, OH"
+  cover_image:  short-north-columbus-oh.jpg
+  cover_image_caption: "Short North, Columbus, OH. Photo: Pineapple XVI"
+  about_image:  goodale-park-columbus-oh.jpg
+  about_image_caption: "Goodale Park, Columbus, OH. Photo: Dave K."
+  logo:         logo.png
+  
+  # Social links
+  # facebook:     sendtoinc
+  twitter:      wckoehler
+  github:       willkoehler
+  # gplus:        '101183822199340201470'
+  
+  # Comments
+  disqus:
+    # Eg. "exampleblog" Set to false to disable comments
+    shortname:  koehlerblog
+  
+  # Google Analytics tracking ID. Leave blank to disable tracking
+  google-analytics-id: 'UA-54124306-1'
+  
+  # Sharing settings
+  sharing:
+    twitter:    true
+    facebook:   true
+    gplus:      false
+    hn:         false
+    reddit:     true
+    
+  # Google Fonts
+  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
+  # google_font: 'Droid+Sans:400,700'
+  
+  # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-# Authors
-authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+# Root URL where the site will be published
+url:         http://willkoehler.net
 
-# Plugins
-plugins: 
-  - jekyll-paginate
-  - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
-markdown: kramdown
-highlighter: rouge
+# host 0.0.0.0 allows us to access site via sapphire.local or localhost or 127.0.0.1
+host: 0.0.0.0
+
+paginate:             10
+
+# safe mode must be disabled to use jekyll-assets.
+safe:               false
+
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: none
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false
