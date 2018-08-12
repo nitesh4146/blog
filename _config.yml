@@ -1,65 +1,61 @@
-info:
-  # Blog Information
-  title:        "Will Koehler"
-  subtitle:     "Independent web developer living in Columbus, OH"
-  cover_image:  short-north-columbus-oh.jpg
-  cover_image_caption: "Short North, Columbus, OH. Photo: Pineapple XVI"
-  about_image:  goodale-park-columbus-oh.jpg
-  about_image_caption: "Goodale Park, Columbus, OH. Photo: Dave K."
-  logo:         logo.png
-  
-  # Social links
-  # facebook:     sendtoinc
-  twitter:      wckoehler
-  github:       willkoehler
-  # gplus:        '101183822199340201470'
-  
-  # Comments
-  disqus:
-    # Eg. "exampleblog" Set to false to disable comments
-    shortname:  koehlerblog
-  
-  # Google Analytics tracking ID. Leave blank to disable tracking
-  google-analytics-id: 'UA-54124306-1'
-  
-  # Sharing settings
-  sharing:
-    twitter:    true
-    facebook:   true
-    gplus:      false
-    hn:         false
-    reddit:     true
-    
-  # Google Fonts
-  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  # google_font: 'Droid+Sans:400,700'
-  
-  # Setup your fonts, colors etc at _assets/stylesheets/main.scss
-
-# Root URL where the site will be published
-url:         http://willkoehler.net
-
-# host 0.0.0.0 allows us to access site via sapphire.local or localhost or 127.0.0.1
-host: 0.0.0.0
-
-paginate:             10
-
-# safe mode must be disabled to use jekyll-assets.
-safe:               false
-
+# Welcome to Jekyll!
 #
-# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
-#
-assets:
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: none
-  cache: false
-  gzip: [ text/css, application/javascript ]
-  debug: false
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Webjeda cards
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
+  
+  
+baseurl: "/cards" # the subpath of your site, e.g. /blog
+url: "http://webjeda.com" # the base hostname & protocol for your site
+
+#sidebar
+default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+
+built-by: webjeda
+
+copyright:
+   name: webjeda
+   link: 'http://blog.webjeda.com'
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+
+# Tracker
+analytics: UA-83979019-1
+
+# Comments
+disqus: yes
+disqus-shortname: webjeda-demo
+
+#social
+facebook: http://facebook.com/webjeda
+quora: http://quora.com/sharathdt
+twitter: http://twitter.com/@webjeda
+github: http://github.com/webjeda
+email: hello@webjeda.com
+
+#facebook like box
+fb-like-box: yes
+fb-app-id: 549480635219583
+fb-page-url: https://www.facebook.com/webjeda/
+fb-page-title: webjeda
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+plugins: [jekyll-paginate, jekyll-seo-tag]
+

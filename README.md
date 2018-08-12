@@ -1,24 +1,8 @@
-## Installation & Usage
+Demo: [http://webjeda.com/cards](http://webjeda.com/cards)
 
-    bundle install
-    bundle exec jekyll serve
+## Installation
+* Fork the repository
+* Go to settings and set Github Pages source as master.
+* Your new site should be ready.
 
-## Publish to Github Pages
-
-    JEKYLL_ENV=production bundle exec rake site:publish
-
-## Thanks
-
-This blog was forked from https://github.com/kippt/jekyll-incorporated. Originally built for
-[sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge.
-Original template built by:
-
-**Karri Saarinen**
-
-+ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
-+ [http://github.com/ksaa](http://github.com/ksaa)
-
-**Jori Lallo**
-
-+ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
-+ [http://github.com/jorde](http://github.com/jorilallo)
+For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
