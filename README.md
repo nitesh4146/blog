@@ -1,49 +1,22 @@
-![preview Long Haul](/preview.jpg)
+# Twister
+![twister preview](/img/twister_preview_big.jpg)
 
-Long Haul is a minimal jekyll theme built with SASS / GULP / BROWSERSYNC / AUTOPREFIXER and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
+## Multimedia
+If we had to choose one word to describe Twister that would be it. Twister is a theme that focusses on multimedia. It contains different post types to create video posts, audio posts, image post or gallery posts with ease. We created a ton of Variables, that make customization super easy.
 
-If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
-
-#### [View Demo](http://brianmaierjr.com/long-haul)
+This theme is powerful and it comes with a few extras.
 
 ## Features
+The theme comes with a grunt file, which means that working with it is super easy. We have Tasks that compile, concatenate, minify and even deploy to your site.
 
-- Minimal, Type Focused Design
-- Built with GULP + SASS + BROWSERSYNC + AUTOPREFIXER
-- SVG Social Icons
-- Responsive Nav Menu
-- XML Feed for RSS Readers
-- Contact Form via Formspree
-- 5 Post Loop with excerpt on Home Page
-- Previous / Next Post Navigation
-- Estimated Reading Time for posts
-- Stylish Drop Cap on posts
-- A Better Type Scale for all devices
+### Front Matter Generator
+Twister comes with a front matter generator that will make generating the front matter for each post a breeze. So you don't have to remember each and every variable name, the generator will help you with that.
 
-## Setup
+### Extensive Documentation
+We don't believe in delivering Code without explanation. So we wrote an extensive Documentation for Twister that goes over every single step from installing all of the dependencies to explaining how to customize, create posts and publish. We even tell you how you can host Twister with Plugins on GitHub pages.
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
-3. Clone it
-4. [Install Bundler](http://bundler.io/)
-5. Run `bundle install`
-6. Install gulp dependencies by running `npm install`
-7. Run Jekyll and watch files by running `gulp`
-8. Customize and watch the magic happen!
+Check the [Docs](http://twister.digitalmind.ch/documentation/) out.
 
-## Site Settings
-
-The main settings can be found inside the `_config.yml` file:
-
-- **title:** title of your site
-- **description:** description of your site
-- **url:** your url
-- **paginate:** the amount of posts displayed on homepage
-- **navigation:** these are the links in the main site navigation
-- **social** diverse social media usernames (optional)
-- **google_analytics** Google Analytics key (optional)
-
-## License
-
-This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
-# slickmind.github.io
+### Feedback, Wishes, Problems
+If you run into any trouble or have a request please do so by opening up an issue on the theme's GitHub page.
+If you just want to give us a general feedback feel free to [contact us!](http://digitalmind.ch/contact/)
