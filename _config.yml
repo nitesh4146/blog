@@ -91,9 +91,3 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
-
----
-# layout: default
-comments: false
-# other options
----
