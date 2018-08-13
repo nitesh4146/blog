@@ -1,12 +1,12 @@
 ghost:
-  username: nitish
-  name: Nitish
-  url_full: http://www.guptanitish.com/
-  url: http://www.guptanitish.com/
-  bio: Researcher, Traveller and Dreamer
-  picture: assets/images/nitish.jpg
-  facebook: nitesh46
-  twitter: nitesh4146
+  username: ghost
+  name: Ghost
+  url_full: http://jekyller.github.io/jasper2/
+  url: jekyller.github.io/jasper2
+  bio: The professional publishing platform
+  picture: assets/images/ghost.png
+  facebook: ghost
+  twitter: tryghost
   cover: False
 hannah:
   username: hannah
