@@ -14,7 +14,7 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://blog.guptanitish.com/
+production_url: /
 source_url: https://github.com/nitesh4146/blog/
 
 # Social info
