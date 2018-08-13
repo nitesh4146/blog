@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl:
 
 # Website info
 title: The SlickBlog
@@ -14,7 +14,7 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: /
+production_url: https://blog.guptanitish.com/
 source_url: https://github.com/nitesh4146/blog/
 
 # Social info
@@ -34,8 +34,8 @@ google_analytics: UA-69281367-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
-permalink: /author/:author
-permalink: /tag/:tag
+# permalink: /author/:author
+# permalink: /tag/:tag
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
